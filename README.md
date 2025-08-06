@@ -1,6 +1,6 @@
 ![BTC Predictor](assets/images/presentation_image_mp.png)
 
-# 📈 Market Predictor (Daily Candles)
+# 📈 Market Predictor
 
 Market Predictor is a machine learning project for **forecasting general market trends**, currently trained on **Bitcoin's daily closing price**, using **engineered features**, **technical indicators**, and the **XGBoost** model.
 
