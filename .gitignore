@@ -10,3 +10,4 @@ __pycache__/
 *.pyo
 
 data/raw/btcusd_1-min_data.csv
+data/processed/btcusd_clean.csv
