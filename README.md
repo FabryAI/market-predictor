@@ -146,5 +146,5 @@ For major changes, please open an issue first.
 
 ## 📄 License
 
-This project is open-source, created for educational and research purposes.  
-Distributed under the MIT license.
+This project is for educational and experimental purposes.
+Contributions welcome under the MIT license.
