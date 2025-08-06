@@ -1,0 +1,30 @@
+[project]
+name = "market-predictor"
+version = "0.1.0"
+description = "Market trend forecasting with ML based on historical data."
+authors = [
+    { name = "FabrizioAI", email = "fabrizio.programmazione@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.3.1,<3.0.0",
+    "scikit-learn>=1.7.1,<2.0.0",
+    "seaborn>=0.13.2,<0.14.0",
+    "nltk==3.8.1",
+    "feedparser>=6.0.11,<7.0.0",
+    "requests>=2.32.4,<3.0.0",
+    "beautifulsoup4>=4.13.4,<5.0.0",
+    "yfinance>=0.2.65,<0.3.0",
+    "xgboost (>=3.0.3,<4.0.0)"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
